@@ -1,0 +1,23 @@
+
+.history{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(Vector\ 1.png),url(Vector\ 2.png);
+    background-repeat: no-repeat;
+    background-position:left top, right top;
+    background-size: 300px,300px;
+    position: relative;
+    padding-top: 200px;
+    &_img{
+        width: 50%;
+        margin-left: 70px;
+        border-radius: 40%;
+        padding: 30px;
+    }
+    &_text{
+        width: 30%;
+        margin-right: 100px;
+    }
+}

@@ -1,0 +1,26 @@
+.gallery{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url(Vector\ 5.png), url(Vector\ 6.png);
+    background-repeat: no-repeat;
+    background-position:left top, right top;
+    background-size: 200px,200px;
+    position: relative;
+    &_h1{
+        margin: 20px 0;
+    }
+    &_rectangle{ 
+        width: 25%;
+      margin: 20px;
+        &:hover{
+              transform: rotate(5deg);
+              border-radius: 10px;
+        }
+    }
+    &_btn{
+        margin: 20px;
+    }
+}
+
+

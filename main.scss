@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+span, a, label {
+    display: inline-block;
+}
+.body{
+    margin: 50px;
+    border: 2px solid silver;
+    box-shadow: 0 0 10px silver;
+}
+@import 'navbar';
+@import 'hairstyle';
+@import 'history';
+@import 'provide';
+@import 'gallery';
+@import 'media';

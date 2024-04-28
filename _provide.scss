@@ -1,0 +1,54 @@
+@mixin w(){
+    width: 20%;
+    height: 400px;
+    background-color: #FAFBFF;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px #163561; 
+    transition: 0.3 all linear;
+    &:hover{
+            background-color: #99BAED;
+        }
+}
+.provide{
+    align-items: center;
+    text-align: center;
+}
+.cut{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(Vector\ 3.png), url(Vector\ 4.png);
+    background-repeat: no-repeat;
+    background-position:left top, right top;
+    background-size: 200px,200px;
+    position: relative;
+    &_heir{
+        @include w();
+    }
+    &_beard{
+        @include w();
+    }
+    &_focial{
+        @include w();
+    }
+    &_img{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #E5ECFE;
+        width: 100px;
+        box-shadow: 0 2px 1px #163561;
+       
+    }
+    &_h2{
+        font-weight: bold;
+        color:#163561 ;
+        padding: 20px 0;
+    }
+    &_2{
+        font-weight: bold;
+    }
+}

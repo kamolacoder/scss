@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+span, a, label {
+  display: inline-block;
+}
+
+.body {
+  margin: 50px;
+  border: 2px solid silver;
+  box-shadow: 0 0 10px silver;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.navbar_scissors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.scissors {
+  width: 50px;
+}
+
+.arber {
+  color: #A3C1EF;
+  font-size: 27px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #163561;
+  margin: 0 30px;
+  padding: 10px;
+}
+.link:hover {
+  background-color: #A3C1EF;
+  color: white;
+  border-radius: 7px;
+  align-items: center;
+}
+
+.icon1 {
+  font-size: 27px;
+  margin: 0 20px;
+  color: #A3C1EF;
+}
+
+.btn1 {
+  padding: 15px 20px;
+  background-color: #A3C1EF;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  margin-right: 120px;
+  box-shadow: 0 3px 10px #A3C1EF;
+}
+
+.hairstyle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.hairstyle_text {
+  width: 30%;
+  margin-left: 100px;
+}
+.hairstyle_img {
+  width: 60%;
+}
+
+.h1 {
+  font-size: 50px;
+  color: #163561;
+  font-weight: bold;
+}
+
+.span {
+  color: #FBB400;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.span1 {
+  padding: 20px 0;
+  color: #677B98;
+  font-weight: bold;
+}
+
+.history {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(Vector\ 1.png), url(Vector\ 2.png);
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-size: 300px, 300px;
+  position: relative;
+  padding-top: 200px;
+}
+.history_img {
+  width: 50%;
+  margin-left: 70px;
+  border-radius: 40%;
+  padding: 30px;
+}
+.history_text {
+  width: 30%;
+  margin-right: 100px;
+}
+
+.provide {
+  align-items: center;
+  text-align: center;
+}
+
+.cut {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(Vector\ 3.png), url(Vector\ 4.png);
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-size: 200px, 200px;
+  position: relative;
+}
+.cut_heir {
+  width: 20%;
+  height: 400px;
+  background-color: #FAFBFF;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 1px #163561;
+  transition: 0.3 all linear;
+}
+.cut_heir:hover {
+  background-color: #99BAED;
+}
+.cut_beard {
+  width: 20%;
+  height: 400px;
+  background-color: #FAFBFF;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 1px #163561;
+  transition: 0.3 all linear;
+}
+.cut_beard:hover {
+  background-color: #99BAED;
+}
+.cut_focial {
+  width: 20%;
+  height: 400px;
+  background-color: #FAFBFF;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 1px #163561;
+  transition: 0.3 all linear;
+}
+.cut_focial:hover {
+  background-color: #99BAED;
+}
+.cut_img {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #E5ECFE;
+  width: 100px;
+  box-shadow: 0 2px 1px #163561;
+}
+.cut_h2 {
+  font-weight: bold;
+  color: #163561;
+  padding: 20px 0;
+}
+.cut_2 {
+  font-weight: bold;
+}
+
+.gallery {
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  background-image: url(Vector\ 5.png), url(Vector\ 6.png);
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-size: 200px, 200px;
+  position: relative;
+}
+.gallery_h1 {
+  margin: 20px 0;
+}
+.gallery_rectangle {
+  width: 25%;
+  margin: 20px;
+}
+.gallery_rectangle:hover {
+  transform: rotate(5deg);
+  border-radius: 10px;
+}
+.gallery_btn {
+  margin: 20px;
+}
+
+@media (max-width: 1400px) {
+  .hairstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hairstyle_text, .hairstyle_img {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+  .history {
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .history_text, .history_img {
+    width: 90%;
+    margin-top: 50px;
+    margin-right: 0;
+    border-radius: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .cut_heir, .cut_beard, .cut_focial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 200px;
+  }
+  .gallery_rectangle {
+    width: 30%;
+  }
+  .navbar_scissors {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .gallery_rectangle {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 30px;
+  }
+  .cut_heir, .cut_beard, .cut_focial {
+    height: 300px;
+    display: block;
+  }
+}
+@media (max-width: 380px) {
+  .cut_heir, .cut_beard, .cut_focial {
+    height: 400px;
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */

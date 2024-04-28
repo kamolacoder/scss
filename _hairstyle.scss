@@ -1,0 +1,33 @@
+@mixin wd($x){
+    width: $x;
+}
+@mixin cl($c){
+    color: $c; 
+    font-weight: bold;
+}
+.hairstyle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    &_text{
+        @include wd(30%);
+        margin-left: 100px;
+    }
+    &_img{
+        @include wd(60%);
+    }
+}
+.h1{
+    font-size: 50px;
+   
+    @include cl(#163561);
+}
+.span{
+    @include cl(#FBB400);
+    padding-right: 10px;
+}
+.span1{
+    padding: 20px 0;
+    @include cl(#677B98);
+}
